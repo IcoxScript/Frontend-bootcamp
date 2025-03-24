@@ -1,0 +1,60 @@
+:root{
+	--color1: #99f300;
+}
+
+body{
+	background-color: darkgray;
+	width: auto;
+}
+
+h1{
+	background-color: chocolate;
+	color: black;
+	text-align: center;
+}
+h1:hover{
+	background-color: var(--color1);
+}
+
+p{
+	background: padding-box 30%;
+	color: #0000FF;
+	border-style: solid;
+	border-width: 10px;
+	border-color: red;
+	margin-right: 100px;
+	margin-left: 100px;
+	padding: 20%;
+}
+
+a{
+	color: blue;
+}
+
+a:hover{
+	color: #a300f1;
+	font: bold;
+}
+
+nav{
+	background-color: #267A38;
+	color :#ff0000;
+}
+div{
+	background-image: url('imagen1.jpeg');
+	background-size: cover;
+	width: 300px;
+	height: 200px;
+}
+.gradient{
+	background: linear-gradient(to top, #ffc09a, yellow);
+}
+
+img{
+	max-width: 80%;
+	height: auto;
+}
+
+h3{
+	text-align: center;
+}
